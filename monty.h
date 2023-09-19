@@ -8,6 +8,8 @@
 #include <string.h>
 #include <ctype.h>
 
+
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -22,6 +24,7 @@ typedef struct stack_s
 	struct stack_s *prev;
 	struct stack_s *next;
 } stack_t;
+
 
 /**
  * struct car_s - include variables -arguments, f_ile, line content
@@ -39,6 +42,7 @@ typedef struct car_s
 	int change;
 }  car_t;
 extern car_t car;
+
 
 /**
  * struct instruction_s - opcode and its function
@@ -61,6 +65,8 @@ void e_push(stack_t **top, unsigned int number);
 void add_node(stack_t **top, int i);
 void add_queue(stack_t **top, int n);
 void e_queue(stack_t **top, unsigned int number);
-
+int main(int argcount, char *argvector[]);
+int executeF(char *C_ontent, stack_t **stack, unsigned int number,
+		FILE *f_ile);
 
 #endif
