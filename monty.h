@@ -62,6 +62,8 @@ void e_add(stack_t **top, unsigned int number);
 void stack_free(stack_t *top);
 void e_pall(stack_t **top, unsigned int number);
 void e_push(stack_t **top, unsigned int number);
+void e_div(stack_t **top, unsigned int number);
+void e_mod(stack_t **top, unsigned int number);
 void add_node(stack_t **top, int i);
 void add_queue(stack_t **top, int n);
 void e_queue(stack_t **top, unsigned int number);

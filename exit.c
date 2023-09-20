@@ -10,19 +10,19 @@
 int executeF(char *C_ontent, stack_t **stack, unsigned int number, FILE *f_ile)
 {
 	instruction_t opst[] = {
-				{"push", e_push}, {"pall", e_pall}, {"pint", e_pint},
-				{"pop", e_pop},
-				{"swap", e_swap},
+				{"push", e_push}, {"pall", e_pall}, {"pint", file_print},
+				{"pop", stack_pop},
+				{"swap", stack_swap},
 				{"add", e_add},
-				{"nop", e_nop},
+				{"nop", s_nothing},
 				{"sub", e_sub},
 				{"div", e_div},
-				{"mul", e_mul},
+				{"mul", multiply},
 				{"mod", e_mod},
-				{"pchar", e_pchar},
-				{"pstr", e_pstr},
-				{"rotl", e_rotl},
-				{"rotr", e_rotr},
+				{"pchar", e_printChar},
+				{"pstr", string_print},
+				{"rotl", e_rotates},
+				{"rotr", e_erotates},
 				{"queue", e_queue},
 				{"stack", e_stack},
 				{NULL, NULL}
