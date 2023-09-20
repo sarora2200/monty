@@ -71,4 +71,5 @@ int executeF(char *C_ontent, stack_t **stack, unsigned int number,
 void e_printChar(stack_t **top, unsigned int number);
 void file_print(stack_t **top, unsigned int number);
 void stack_pop(stack_t **top, unsigned int number);
+void string_print(stack_t **top, unsigned int number);
 #endif
