@@ -12,7 +12,7 @@ stack_t *t;
 t = *top;
 if (!t)
 {
-fprintf(stderr, "L%d: can't print char, stack empty\n", number);
+fprintf(stderr, "L%d: can't pchar, stack empty\n", number);
 fclose(car.f_ile);
 free(car.C_ontent);
 stack_free(*top);
@@ -20,7 +20,7 @@ exit(EXIT_FAILURE);
 }
 if (t->n > 127 || t->n < 0)
 {
-fprintf(stderr, "L%d: can't print char, value out of range\n", number);
+fprintf(stderr, "L%d: can't pchar, value out of range\n", number);
 fclose(car.f_ile);
 free(car.C_ontent);
 stack_free(*top);
