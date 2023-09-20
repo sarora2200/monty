@@ -10,6 +10,7 @@
 
 
 
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -57,7 +58,9 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-
+char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
+char  *clean_line(char *content);
 void e_add(stack_t **top, unsigned int number);
 void stack_free(stack_t *top);
 void e_pall(stack_t **top, unsigned int number);
