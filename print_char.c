@@ -23,7 +23,7 @@ if (t->n > 127 || t->n < 0)
 fprintf(stderr, "L%d: can't print char, value out of range\n", number);
 fclose(car.f_ile);
 free(car.C_ontent);
-free_stack(*top);
+stack_free(*top);
 exit(EXIT_FAILURE);
 }
 printf("%c\n", t->n);

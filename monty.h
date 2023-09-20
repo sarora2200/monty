@@ -68,5 +68,5 @@ void e_queue(stack_t **top, unsigned int number);
 int main(int argcount, char *argvector[]);
 int executeF(char *C_ontent, stack_t **stack, unsigned int number,
 		FILE *f_ile);
-
+void e_printChar(stack_t **top, unsigned int number);
 #endif
