@@ -78,4 +78,5 @@ void e_rotates(stack_t **top, unsigned int number);
 void e_erotates(stack_t **top, __attribute__((unused)) unsigned int number);
 void e_stack(stack_t **top, unsigned int number);
 void e_sub(stack_t **top, unsigned int number);
+void stack_swap(stack_t **top, unsigned int number);
 #endif
