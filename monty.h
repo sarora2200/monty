@@ -73,4 +73,5 @@ void file_print(stack_t **top, unsigned int number);
 void stack_pop(stack_t **top, unsigned int number);
 void string_print(stack_t **top, unsigned int number);
 void s_nothing(stack_t **top, unsigned int number);
+void multiply(stack_t **top, unsigned int number);
 #endif
