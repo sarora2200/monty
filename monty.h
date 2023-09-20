@@ -72,4 +72,5 @@ void e_printChar(stack_t **top, unsigned int number);
 void file_print(stack_t **top, unsigned int number);
 void stack_pop(stack_t **top, unsigned int number);
 void string_print(stack_t **top, unsigned int number);
+void s_nothing(stack_t **top, unsigned int number);
 #endif
