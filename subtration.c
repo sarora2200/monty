@@ -15,7 +15,7 @@ void e_sub(stack_t **top, unsigned int number)
 		total = total->next;
 	if (nodes < 2)
 	{
-		fprintf(stderr, "L%d: can't subtract, stack is short\n", number);
+		fprintf(stderr, "L%d: can't sub, stack too short\n", number);
 		fclose(car.f_ile);
 		free(car.C_ontent);
 		stack_free(*top);

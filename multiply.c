@@ -18,7 +18,7 @@ void multiply(stack_t **top, unsigned int number)
 	}
 	if (length < 2)
 	{
-		fprintf(stderr, "L%d: can't multiply, stack is short\n", number);
+		fprintf(stderr, "L%d: can't mul, stack too short\n", number);
 		fclose(car.f_ile);
 		free(car.C_ontent);
 		stack_free(*top);

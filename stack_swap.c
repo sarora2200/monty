@@ -18,7 +18,7 @@ void stack_swap(stack_t **top, unsigned int number)
 	}
 	if (length < 2)
 	{
-		fprintf(stderr, "L%d: can't swap, stack is short\n", number);
+		fprintf(stderr, "L%d: can't swap, stack too short\n", number);
 		fclose(car.f_ile);
 		free(car.C_ontent);
 		stack_free(*top);
