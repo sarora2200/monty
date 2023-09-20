@@ -1,7 +1,5 @@
 #include "monty.h"
-
 car_t car = {NULL, NULL, NULL, 0};
-
 /**
 * main - Entry of monty code interpreter
 * @argcount: arguments_number
