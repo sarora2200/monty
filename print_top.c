@@ -9,7 +9,7 @@ void file_print(stack_t **top, unsigned int number)
 {
 if (*top == NULL)
 {
-fprintf(stderr, "L%u: can't print, stack empty\n", number);
+fprintf(stderr, "L%u: can't pint, stack empty\n", number);
 fclose(car.f_ile);
 free(car.C_ontent);
 stack_free(*top);
